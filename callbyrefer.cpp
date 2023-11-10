@@ -2,9 +2,9 @@
 using namespace std;
 int add(int &b)
 {
-	cout<<"the values before increment in sub function is "<<b<<endl;
+	cout<<"The values before increment in sub function is "<<b<<endl;
 	b=b+50;
-	cout<<"the values after increment in subfunction is "<<b<<endl;
+	cout<<"The values after increment in subfunction is "<<b<<endl;
 	return b;
 }
 int main()
